@@ -134,7 +134,6 @@ li {
   padding: 20px;
 }
 
-
 .works h2 {
   font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 32px;
@@ -247,7 +246,7 @@ li {
   font-weight: 500;
   color: #253858;
   line-height: 20px;
-  padding: 10px;
+  padding: 10px 0px;
 }
 
 .resume li {
@@ -255,7 +254,6 @@ li {
   background-color: #f7f7f9;
   margin-bottom: 12px;
   border-radius: 8px;
-  padding: 21px auto 21px 76px ;
 }
 
 .resume img {
@@ -275,12 +273,12 @@ li {
 }
 
 .form-section {
-  background-position: top 8px right;
+  background-position: top 35px right;
   background-image: url("./images/contact-form.svg");
   background-repeat: no-repeat;
   background-color: #6070ff;
   border-top-left-radius: 80px;
-  padding: 25px 0 1px;
+  padding: 45px 0px 1px;
 }
 
 .contact-me {
@@ -298,7 +296,7 @@ li {
 }
 
 .contact-me p {
-  color: #EBEBFF;
+  color: #ebebff;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
@@ -308,7 +306,6 @@ li {
 .form {
   display: flex;
   flex-direction: column;
-  align-content: center;
   align-content: center;
   margin-top: 30px;
 }
@@ -320,21 +317,21 @@ li {
   font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 20px;
   border-radius: 8px;
-  border: 0px;
+  border: none;
   margin: 0 24px 24px;
   padding: 8px;
 }
 
 .textarea {
-  height: 170px;
-  color: #B3BAC5;
+  height: 150px;
+  color: #b3bac5;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 24px;
   border-radius: 8px;
-  border: 0px;
+  border: none;
   margin: 0 24px 24px;
   padding: 15px 38px 15px 16px;
 }
@@ -345,19 +342,19 @@ li {
   font-size: 17px;
   line-height: 24px;
   font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #6070FF;
+  color: #6070ff;
   padding: 12px 16px;
   width: 140px;
   height: 48px;
   border-radius: 8px;
   margin-left: 24px;
-  border: 0px;
+  border: none;
   margin-bottom: 20px;
 }
 
 hr {
-  border: 3px solid #0D151E;
+  border: 3px solid #0d151e;
   width: 134px;
   border-radius: 10px;
-  background-color: #0D151E;
+  background-color: #0d151e;
 }
