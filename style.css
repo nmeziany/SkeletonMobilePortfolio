@@ -2,6 +2,7 @@
 
 html {
   background-color: #e5e5e5;
+  font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -262,4 +263,36 @@ li {
 .moreabout a:hover,
 .moreabout a:active {
   text-decoration: inherit;
+}
+
+.contact-form {
+  width: 375px;
+  background-image: url("./images/contact-form.svg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-color: #6070ff;
+  border-top-left-radius: 80px;
+  padding-top: 65px;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-me h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  margin;
+}
+
+.contact-me p {
+  color: #EBEBFF;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  width: 327px;
 }
