@@ -7,6 +7,7 @@ In this project I created a mobile version of a Portfolio integrating some featu
 - A section to show the projects created by the portfolio's owner.
 - An about me section.
 - Links to social networks accounts.
+- A form to use to contact the portfolio owner.
 
 ![screenshot](./Screenshot1.png)
 ![screenshot](./Screenshot2.png)
