@@ -266,7 +266,6 @@ li {
 }
 
 .contact-form {
-  width: 375px;
   background-image: url("./images/contact-form.svg");
   background-position: top right;
   background-repeat: no-repeat;
@@ -286,7 +285,6 @@ li {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  margin;
 }
 
 .contact-me p {
@@ -294,5 +292,60 @@ li {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  width: 327px;
+  margin: 24px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-content: center;
+}
+
+.text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 20px;
+  border-radius: 8px;
+  border: 0px;
+  margin: 0 24px 24px;
+  padding: 8px;
+}
+
+.textarea {
+  height: 170px;
+  color: #B3BAC5;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 24px;
+  border-radius: 8px;
+  border: 0px;
+  margin: 0 24px 24px;
+  padding: 15px 38px 15px 16px;
+}
+
+.button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #6070FF;
+  padding: 12px 16px;
+  width: 140px;
+  height: 48px;
+  border-radius: 8px;
+  margin-left: 24px;
+  border: 0px;
+  margin-bottom: 20px;
+}
+
+hr {
+  border: 3px solid #0D151E;
+  width: 134px;
+  border-radius: 10px;
 }
