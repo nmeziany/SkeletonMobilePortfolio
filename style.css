@@ -99,15 +99,14 @@ nav {
 }
 
 ul {
-  display: flex;
   list-style-type: none;
   padding-left: 0;
   align-items: baseline;
   margin-top: 0;
+  float: left;
 }
 
 li {
-  display: flex;
   padding-right: 20px;
 }
 
