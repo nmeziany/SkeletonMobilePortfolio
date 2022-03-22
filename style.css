@@ -198,7 +198,7 @@ li {
   display: grid;
   grid-template-rows: repeat(6, auto);
   align-items: baseline;
-  margin: 50px 0;
+  margin-top: 50px;
   border-top-right-radius: 80px;
   background-color: white;
   padding: 20px;
@@ -241,7 +241,6 @@ li {
 .resume ul {
   display: grid;
   grid-template-rows: repeat(3, 1fr);
-  background-color: #f7f7f9;
   font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -252,10 +251,14 @@ li {
 
 .resume li {
   align-items: center;
+  background-color: #f7f7f9;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  padding: 21px auto 21px 76px ;
 }
 
 .resume img {
-  padding-right: 20px;
+  padding: 9px 16px 9px 12px;
 }
 
 .moreabout a:link,
@@ -266,12 +269,17 @@ li {
 }
 
 .contact-form {
+  background-color: #fff;
+  padding-top: 65px;
+}
+
+.form-section {
+  background-position: top 8px right;
   background-image: url("./images/contact-form.svg");
-  background-position: top right;
   background-repeat: no-repeat;
   background-color: #6070ff;
   border-top-left-radius: 80px;
-  padding-top: 65px;
+  padding: 25px 0 1px;
 }
 
 .contact-me {
@@ -285,6 +293,7 @@ li {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
+  margin-top: 50px;
 }
 
 .contact-me p {
@@ -292,7 +301,7 @@ li {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  margin: 24px;
+  margin: 0 24px;
 }
 
 .form {
@@ -300,6 +309,7 @@ li {
   flex-direction: column;
   align-content: center;
   align-content: center;
+  margin-top: 30px;
 }
 
 .text {
@@ -348,4 +358,5 @@ hr {
   border: 3px solid #0D151E;
   width: 134px;
   border-radius: 10px;
+  background-color: #0D151E;
 }
