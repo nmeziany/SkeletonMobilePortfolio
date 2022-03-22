@@ -246,7 +246,7 @@ li {
   font-weight: 500;
   color: #253858;
   line-height: 20px;
-  padding: 10px 0px;
+  padding: 10px 0;
 }
 
 .resume li {
@@ -278,7 +278,7 @@ li {
   background-repeat: no-repeat;
   background-color: #6070ff;
   border-top-left-radius: 80px;
-  padding: 45px 0px 1px;
+  padding: 45px 0 1px;
 }
 
 .contact-me {
