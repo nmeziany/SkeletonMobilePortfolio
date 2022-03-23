@@ -205,11 +205,11 @@
             <h2 >Contact me</h2>
             <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
           </div>
-          <form action="send" class="form">
-            <input type="text" class="text" value="Yeremias">
-            <input type="email" class="text" value="natajayanj14@gmail.com">
-            <textarea class="textarea">Write your message here</textarea>
-            <input type="button" class="button" value="Get It Touch">
+          <form action="https://formspree.io/f/xrgjlnej" method="POST" class="form">
+            <input type="text" class="text" value="Yeremias" name="fullname" maxlength="30" required>
+            <input type="email" class="text" value="natajayanj14@gmail.com" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            <textarea class="textarea" placeholder="Write your message here" maxlength="500" required></textarea>
+            <input type="submit" class="button" value="Get It Touch">
           </form>
           <hr>
       </section>
