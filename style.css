@@ -23,7 +23,14 @@ nav {
   margin-left: 24px;
   color: #6070ff;
   justify-items: center;
+  -webkit-animation:spin 2s linear;
+    -moz-animation:spin 2s linear;
+    animation:spin 2s linear;
 }
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 .logo h2 {
   font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
