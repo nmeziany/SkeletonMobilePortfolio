@@ -211,10 +211,19 @@ nav {
     border-color: #396df2;
     text-decoration: inherit;
     border-radius: 8px;
-    padding: 4px 8px;
+    padding: 8px;
     width: fit-content;
   }
+
+  .moreabout:hover {
+    border: #3a4a42 solid 0.2px;
+    color: #fff;
+    background-color: #396df2;
+  }
   
+  .moreabout a:hover {
+    color: #fff;
+  }
   .aboutme {
     display: flex;
     align-items: baseline;
@@ -382,6 +391,12 @@ nav {
     margin-bottom: 20px;
   }
   
+  .button:hover {
+    border: #3a4a42 solid 0.2px;
+    color: #fff;
+    background-color: #3a4a42;
+  }
+
   hr {
     border: 3px solid #0d151e;
     width: 134px;
