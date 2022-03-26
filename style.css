@@ -46,6 +46,10 @@ nav {
   display: flex;
 }
 
+.desktop-menu {
+  display: none;
+}
+
 .hello {
   background-color: white;
   border-bottom-left-radius: 100px;

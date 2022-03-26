@@ -21,8 +21,15 @@ nav {
     margin-left: 24px;
     color: #6070ff;
     justify-items: center;
+    -webkit-animation:spin 2s linear;
+    -moz-animation:spin 2s linear;
+    animation:spin 2s linear;
   }
   
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
   .logo h2 {
     font-weight: 700;
     font-size: 18px;
@@ -37,8 +44,26 @@ nav {
   }
   
   .menu {
-    margin-right: 24px;
+    display: none;
+  }
+
+  .desktop-menu {
     display: flex;
+    align-items: center;
+    margin-right: 10%;
+  }
+
+  .desktop-menu a {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+
+  .desktop-menu a:hover {
+    text-decoration: underline;
   }
 
   .hello {
@@ -142,6 +167,10 @@ nav {
     height: 100%;
   }
 
+  .works img:hover {
+    transform: scale(1.2);
+  }
+
   .works h2 {
     font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
@@ -200,10 +229,19 @@ nav {
     border-color: #396df2;
     text-decoration: inherit;
     border-radius: 8px;
-    padding: 4px 8px;
+    padding: 8px;
     width: fit-content;
   }
+
+  .moreabout:hover {
+    border: #3a4a42 solid 0.2px;
+    color: #fff;
+    background-color: #396df2;
+  }
   
+  .moreabout a:hover {
+    color: #fff;
+  }
   .aboutme {
     display: flex;
     align-items: baseline;
@@ -371,6 +409,12 @@ nav {
     margin-bottom: 20px;
   }
   
+  .button:hover {
+    border: #3a4a42 solid 0.2px;
+    color: #fff;
+    background-color: #3a4a42;
+  }
+
   hr {
     border: 3px solid #0d151e;
     width: 134px;
