@@ -81,19 +81,6 @@ nav {
   margin-right: 10%;
 }
 
-.desktop-menu a {
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #344563;
-  text-decoration: none;
-  margin-right: 20px;
-}
-
-.desktop-menu a:hover {
-  text-decoration: underline;
-}
-
 .hello {
   background-color: white;
   border-bottom-left-radius: 100px;
@@ -195,6 +182,10 @@ li {
   height: 100%;
 }
 
+.resume img {
+  padding: 9px 16px 9px 12px;
+}
+
 .works img:hover {
   transform: scale(1.2);
 }
@@ -270,6 +261,7 @@ li {
 .moreabout a:hover {
   color: #fff;
 }
+
 .aboutme {
   display: flex;
   align-items: baseline;
@@ -336,10 +328,6 @@ li {
   margin-right: 12px;
   border-radius: 8px;
   padding: 10px;
-}
-
-.resume img {
-  padding: 9px 16px 9px 12px;
 }
 
 .moreabout a:link,
