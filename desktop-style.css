@@ -160,8 +160,8 @@ li {
 }
 
 .works {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex: 50%;
   align-content: space-around;
   align-items: center;
   margin: 50px 20px;
